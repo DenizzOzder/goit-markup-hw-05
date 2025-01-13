@@ -259,7 +259,6 @@ address ul li .list-items:focus{
   }
 .section-our-team ul li{
     list-style-type: none ;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 .section-our-team .our-team-list-item{
     width: calc((100% - 72px) / 4);
