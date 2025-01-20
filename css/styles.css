@@ -435,3 +435,54 @@ footer .container{
 .social-list-items-link:focus{
   background-color: #31d0aa;
 }
+.footer-subscribe{
+  margin-left: 80px;
+  width: 453px;
+}
+.footer-subscribe form{
+  width: 100%;
+}
+.footer-subscribe p{
+  margin-bottom: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  color:#F4F4FD;
+}
+.footer-subscribe input[type="text"]{
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  font-family: inherit;
+  background-color: #2E2F42;
+  border-color: #F4F4FD;
+  color: #F4F4FD;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.footer-submit{
+  margin-left: 24px;
+  background-color: #4D5AE5;
+  color: #F4F4FD;
+  padding: 8px 24px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  border:none;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-submit svg{
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.footer-subform input::placeholder{
+  color: #F4F4FD;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  text-align: left;
+  vertical-align: center;
+  font-family: inherit;
+}
