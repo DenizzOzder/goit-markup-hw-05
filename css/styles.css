@@ -447,8 +447,14 @@ footer .container{
   font-family: inherit;
   font-weight: 500;
   color:#F4F4FD;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
-.footer-subscribe input[type="text"]{
+.footer-subscribe{
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe input[type="email"]{
   width: 264px;
   height: 40px;
   border-radius: 4px;
@@ -463,19 +469,25 @@ footer .container{
 .footer-submit{
   margin-left: 24px;
   background-color: #4D5AE5;
-  color: #F4F4FD;
+  color: #FFFFFF;
   padding: 8px 24px;
   font-family: inherit;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   border:none;
-  text-align: center;
-  vertical-align: middle;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
 }
 .footer-submit svg{
   vertical-align: middle;
-  margin-left: 8px;
+  margin-left: 16px;
 }
 .footer-subform input::placeholder{
   color: #F4F4FD;
