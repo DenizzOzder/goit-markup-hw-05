@@ -597,8 +597,8 @@ footer .container{
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.name-input:focus .iconss{
-  fill: #4D5AE5;
+.name-input:focus + svg{
+  fill: #404bbf;
 }
 .textarea-input{
   width: 100%;
@@ -638,9 +638,8 @@ footer .container{
   align-items: center;
   justify-content: center;
   fill:transparent;
-
 }
-.user-privacy-container input[type="checkbox"]:checked .label-span{
+.user-privacy-container .visually-hidden:checked .label-span{
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
