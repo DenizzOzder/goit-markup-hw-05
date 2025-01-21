@@ -597,7 +597,7 @@ footer .container{
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.name-input:focus .input-container svg{
+.input-container input:focus .input-container svg{
   fill: #4D5AE5;
 }
 .textarea-input{
