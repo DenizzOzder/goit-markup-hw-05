@@ -639,7 +639,7 @@ footer .container{
   justify-content: center;
   fill:transparent;
 }
-.user-privacy-container .visually-hidden:checked + span{
+.user-privacy-container input:checked + span{
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
