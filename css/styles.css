@@ -648,6 +648,7 @@ footer .container{
   color: #4d5ae5;
 }
 .modalform-button{
+  margin-left: 100px;
   display: block;
   min-width: 169px;
   height: 56px;
